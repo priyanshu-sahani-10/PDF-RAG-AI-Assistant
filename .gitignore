@@ -1,0 +1,32 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+
+# Local config and secrets
+.env
+*.local
+
+# Runtime data: uploads, SQLite, vector store, models
+backend/uploads/*
+backend/data/*
+!backend/uploads/.gitkeep
+!backend/data/.gitkeep
+*.db
+*.db-wal
+*.db-shm
+*.sqlite3
+.cache/
+huggingface/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
